@@ -30,8 +30,6 @@ button {
   cursor: pointer;
   background-color: #47B39C;
   color: white;
-  width: 10vw;
-  height: 6vh;
   display: block;
   margin: 5% auto;
 }
