@@ -1,0 +1,37 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+div {
+  width: 90%;
+  max-width: 34.37em;
+  max-height: 90vh;
+  padding: 3em;
+  position: relative;
+}
+
+img {
+	transform: scaleX(-1);
+	position: absolute;
+	right: 0;
+	bottom: 50%;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: #47B39C;
+  color: white;
+  width: 10vw;
+  height: 6vh;
+  display: block;
+  margin: 5% auto;
+}
